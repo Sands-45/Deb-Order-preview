@@ -173,3 +173,18 @@ width: 75%;
 	background-color: #e12027;
 	color:white;
 }
+@media (max-width:900px){
+	.wrapper{
+		display:grid;
+		grid-template-rows:1fr 1fr !important;
+		margin-top:70px
+	}
+	#order {
+		display: inline-block;
+		border-radius:3px;
+		margin: 50px;
+		border: 2px solid #ccc;
+		width:350px !important;
+		background-color: #fff;
+	}
+}
